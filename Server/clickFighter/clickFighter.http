@@ -1,0 +1,6 @@
+@clickFighter_HostAddress = http://localhost:5048
+
+GET {{clickFighter_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
