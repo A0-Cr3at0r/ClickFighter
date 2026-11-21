@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37806.7 d17.14
+VisualStudioVersion = 17.14.37806.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clickFighter", "clickFighter.csproj", "{D89B573A-D186-4E0C-BA0E-44D7E50DB81B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clickFighter.server", "clickFighter.server.csproj", "{D89B573A-D186-4E0C-BA0E-44D7E50DB81B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clickFigther.Domain", "..\clickFigther.Domain\clickFigther.Domain.csproj", "{89C8A286-BDA2-4958-9AF0-33758EAE68A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clickFighter.Infrastructure", "..\clickFighter.Infrastructure\clickFighter.Infrastructure.csproj", "{083B452E-8298-4974-A3E1-E0DC4C1592C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clickFighter.Application", "..\clickFighter.Application\clickFighter.Application.csproj", "{49959858-BFEB-44F9-8DEE-B19DC3298B08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{D89B573A-D186-4E0C-BA0E-44D7E50DB81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D89B573A-D186-4E0C-BA0E-44D7E50DB81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D89B573A-D186-4E0C-BA0E-44D7E50DB81B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C8A286-BDA2-4958-9AF0-33758EAE68A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C8A286-BDA2-4958-9AF0-33758EAE68A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C8A286-BDA2-4958-9AF0-33758EAE68A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C8A286-BDA2-4958-9AF0-33758EAE68A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083B452E-8298-4974-A3E1-E0DC4C1592C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083B452E-8298-4974-A3E1-E0DC4C1592C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083B452E-8298-4974-A3E1-E0DC4C1592C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083B452E-8298-4974-A3E1-E0DC4C1592C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49959858-BFEB-44F9-8DEE-B19DC3298B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49959858-BFEB-44F9-8DEE-B19DC3298B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49959858-BFEB-44F9-8DEE-B19DC3298B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49959858-BFEB-44F9-8DEE-B19DC3298B08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
